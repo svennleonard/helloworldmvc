@@ -2,9 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>jpuexia</groupId>
   <artifactId>helloworldmvc</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>helloworldmvc</name>
@@ -48,9 +46,14 @@
   	</dependency>
   </dependencies>
   <modules>
-  	<module>controller</module>
+  	
   	<module>model</module>
   	<module>view</module>
   	<module>contract</module>
+  	
+  	
+  	<module>controller</module>
   </modules>
+  <groupId>jpuexia</groupId>
+  <version>0.0.1-SNAPSHOT</version>
 </project>
